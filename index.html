@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokédex</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./assets/logo.png" alt="logo pokedex" />
+      <div>
+        <input type="text" placeholder="Ex: Pikachu" id="pokemonName" />
+        <button id="search">Procurar</button>
+      </div>
+    </header>
+    <main>
+      <img class="background" src="./assets/fundo.jpg" alt="imagem de fundo" />
+      <img class="pokeImg"></img>
+      <h2 class="pokeId"></h2>
+      <ul>
+        <li>HP: <span class="hp"></span></li>
+        <li>Attack: <span class="attack"></span></li>
+        <li>Defense: <span class="defense"></span></li>
+        <li>Speed: <span class="speed"></span></li>
+      </ul>
+      <div class="pokedex">
+        <img src="./assets/pokedex.png" alt="pokedex" />
+      </div>
+    </main>
+  </body>
+</html>

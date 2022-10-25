@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oxanium", cursive;
+  overflow: hidden;
+}
+
+header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  padding: 10px 5% 10px 5%;
+  margin: auto;
+  background-color: rgba(243, 240, 240, 0.692);
+}
+
+header img {
+  height: 100%;
+}
+
+header input {
+  width: 250px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 18px;
+  color: grey;
+  border-radius: 5px;
+}
+
+header button {
+  height: 40px;
+  width: 100px;
+  color: white;
+  background-color: rgb(69, 69, 233);
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.background {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+}
+
+.pokedex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.pokedex img {
+  position: relative;
+  height: 580px;
+  width: 400px;
+  top: -40px;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+}
+
+.pokeId {
+  position: absolute;
+  top: 50%;
+  margin-top: 70px;
+  right: 50%;
+  margin-right: -100px;
+  z-index: 3;
+  color: gray;
+  text-transform: uppercase;
+}
+
+ul {
+  position: absolute;
+  top: 50%;
+  margin-top: 130px;
+  left: 50%;
+  margin-left: -170px;
+  z-index: 3;
+}
+
+ul li {
+  font-size: 18px;
+  font-weight: bold;
+  height: 28px;
+  width: 285px;
+  background-color: #e3e3e3;
+  margin: 10px;
+  padding: 5px 10px;
+  box-shadow: 0 1px 0 3px rgb(43, 42, 42);
+  text-transform: uppercase;
+}
+
+.pokeImg {
+  position: absolute;
+  z-index: 6;
+  height: 100px;
+  width: 100px;
+  top: 50%;
+  margin-top: -70px;
+  left: 50%;
+  margin-left: -70px;
+}
